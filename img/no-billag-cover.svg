@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1092px" height="294px" viewBox="0 0 1092 294" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1092" height="294"></rect>
+    </defs>
+    <g id="Layout-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-174.000000, -295.000000)">
+        <g id="Group" transform="translate(174.000000, 295.000000)">
+            <g id="Rectangle-5">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="1091" height="293"></rect>
+            </g>
+            <text id="NO-BILLAG" font-family="Helvetica-Bold, Helvetica" font-size="172" font-weight="bold" fill="#AF001E">
+                <tspan x="68" y="204">NO-BILLAG</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

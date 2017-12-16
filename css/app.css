@@ -1,15 +1,15 @@
 .cell {
-    border:1px solid black;
+    /*border:1px solid black;*/
 }
 
-.cover-sevi {
+.cover-background {
     width: 100vw;
     height: 100vh;
-    background:url(../img/cover.svg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
+    background-color: #AF001E;
+}
+
+.cover-center {
+    margin: auto;
+    text-align: center;
 }
 
