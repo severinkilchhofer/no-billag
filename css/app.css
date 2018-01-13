@@ -1,3 +1,7 @@
+body {
+    font-family: 'Hind', sans-serif;
+}
+
 .cell {
     /*border:1px solid black;*/
 }
@@ -19,3 +23,31 @@
     text-align: center;
 }
 
+.person {
+    text-align: center;
+}
+
+.name-header {
+    height: 100px;
+}
+
+.description-text {
+    height: 260px;
+}
+
+/*headings*/
+
+h1 {
+    font-size: 6em;
+    color: #222222;
+}
+
+h2 {
+    font-size: 3em;
+    color: #555555;
+}
+
+img.img-person {
+    height: 300px;
+    width: 300px;
+}
