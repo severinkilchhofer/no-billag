@@ -73,7 +73,6 @@ h5 {
     color: #AF001E;
 }
 
-
 img.img-person {
     height: 200px;
     width: 200px;
@@ -81,19 +80,6 @@ img.img-person {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-a.btn {
-    background-color: #AF001E; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    /*font-family: 'Hind', sans-serif;*/
-}
 
 /*play icon*/
 .button {
@@ -101,15 +87,20 @@ a.btn {
 }
 
 .play-div {
-    margin: 30px;
+    margin-top: 70px;
 }
 
 .play-icon {
-    font-size:9em;
-    color:#AF001E;
+    font-size: 15em;
+    color: #AF001E;
     border-radius: 50%;
 }
 
 .play-icon:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#billag-cover:hover {
+    content: url('../img/yes-billag-cover.svg');
 }

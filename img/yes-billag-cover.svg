@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1092px" height="294px" viewBox="0 0 1092 294" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>yes-billag-cover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon-contract" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="yes-billag-cover">
+            <g id="Rectangle-5">
+                <g id="path-1-link" fill="#FFFFFF">
+                    <rect id="path-1" x="0" y="0" width="1092" height="294"></rect>
+                </g>
+                <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.5" width="1091" height="293"></rect>
+            </g>
+            <g id="NO-BILLAG" transform="translate(64.000000, 23.000000)" fill="#AF001E" font-family="Hind-Bold, Hind" font-size="172" font-weight="bold">
+                <text id="YES-BILLAG">
+                    <tspan x="0" y="181">YES-BILLAG</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

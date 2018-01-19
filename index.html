@@ -16,25 +16,18 @@
 <body>
 
 <section class="view-section">
-    <input type="button" name="btn_1_from_db" value="Toggle Color1"/>
-    <div id="toggleEvent" class="grid-x cover-background normal">
-        My color will change
-    </div>
-
-</section>
-
-<section class="view-section">
     <div class="grid-x cover-background">
         <div class="cell large-offset-2 large-8 cover-center">
-            <img src="img/no-billag-cover.svg">
+            <img id="billag-cover" src="img/no-billag-cover.svg"/>
         </div>
+
         <a href="#1" class="cell large-offset-2 large-8 cover-center">
             <img src="img/arrow-down-thin.svg">
         </a>
     </div>
 </section>
 
-<section class="view-section">
+<section id="1" class="view-section">
     <div class="grid-x">
         <div class="cell large-4 medium-6 small-12 person">
             <h1>Lois, 18 </h1>
@@ -81,12 +74,12 @@
 
 <section class="view-section">
     <div class="grid-x">
-        <div class="cell large-offset-2 large-8" style="border: 1px solid red">
+        <div class="cell large-offset-2 large-8">
             <h3>Ein Projekt von Severin Kilchhofer</h3>
             <h4>Grids and Modules <br>
                 Schule für Gestaltung Zürich</h4>
         </div>
-        <div class="cell large-offset-2 large-8" style="border: 1px solid red">
+        <div class="cell large-offset-2 large-8">
             <h5>Mit meinem Projekt zur No-Billag Initiative will ich alle Leute animieren,
                 sich genau über die Abstimmung zu informieren.
                 Jeder soll sich seine eigene Meinung bilden und sich nicht
@@ -104,7 +97,7 @@
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/what-input.js"></script>
 <script src="js/vendor/foundation.js"></script>
-<!--<script src="js/jquery.scrollify.js"></script>-->
+<script src="js/jquery.scrollify.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
