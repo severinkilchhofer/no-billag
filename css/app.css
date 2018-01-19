@@ -39,19 +39,21 @@ body {
 }
 
 .description-text {
-    height: 260px;
+    width: 70%;
 }
 
 /*headings*/
 
 h1 {
-    font-size: 6em;
+    font-size: 4em;
     color: #222222;
+    margin-bottom: 0;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
     color: #555555;
+    margin-top: 0;
 }
 
 h3 {
@@ -73,8 +75,10 @@ h5 {
 
 
 img.img-person {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 a.btn {
@@ -91,7 +95,21 @@ a.btn {
     /*font-family: 'Hind', sans-serif;*/
 }
 
+/*play icon*/
 .button {
     text-align: center;
+}
 
+.play-div {
+    margin: 30px;
+}
+
+.play-icon {
+    font-size:9em;
+    color:#AF001E;
+    border-radius: 50%;
+}
+
+.play-icon:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

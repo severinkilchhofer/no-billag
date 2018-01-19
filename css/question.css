@@ -1,0 +1,70 @@
+p {
+    color: #fff;
+}
+
+@supports (mix-blend-mode: screen) {
+    p {
+        mix-blend-mode: screen;
+        position: relative;
+    }
+
+    p::after {
+        background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(3rem, #000)) no-repeat bottom center/100% 100%;
+        background: linear-gradient(180deg, transparent, #000 3rem) no-repeat bottom center/100% 100%;
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        pointer-events: none;
+        -webkit-transition: 0.5s ease-out;
+        transition: 0.5s ease-out;
+    }
+
+    p:hover::after {
+        background-size: 100% 0;
+    }
+}
+
+/* Pen styling */
+.wrapper {
+    /*background: #AF001E;) 50% 50%/cover;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font: 20px/1.5 'Hind', sans-serif;;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100%;
+    width: 100%;
+    /*position: relative;*/
+}
+
+.wrapper::before {
+    background: #222;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+h1 {
+    font-size: 60px;
+    /*font-weight: 300;*/
+}
+
+.content {
+    color: #fff;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
