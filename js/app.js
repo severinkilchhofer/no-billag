@@ -1,5 +1,11 @@
 $(document).foundation();
 
+$(function () {
+    $.scrollify({
+        section: ".view-section"
+    });
+});
+
 $.scrollify({
     section : "section",
     sectionName : "section-name",
@@ -16,5 +22,11 @@ $.scrollify({
     before:function() {},
     after:function() {},
     afterResize:function() {},
-    afterRender:function() {}
+afterRender:function() {}
+});
+
+$(document).ready(function () {
+    $('input[type=button]').click(function () {
+        $('#toggleEvent').toggleClass('active');
+    });
 });

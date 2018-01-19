@@ -23,6 +23,13 @@ body {
     text-align: center;
 }
 
+.question-end {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
 .person {
     text-align: center;
 }
@@ -47,7 +54,44 @@ h2 {
     color: #555555;
 }
 
+h3 {
+    font-size: 3em;
+    color: #AF001E;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 2.6em;
+    color: #AF001E;
+    margin: 0;
+}
+
+h5 {
+    font-size: 2em;
+    color: #AF001E;
+}
+
+
 img.img-person {
     height: 300px;
     width: 300px;
+}
+
+a.btn {
+    background-color: #AF001E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /*font-family: 'Hind', sans-serif;*/
+}
+
+.button {
+    text-align: center;
+
 }

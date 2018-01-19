@@ -7,17 +7,19 @@
     <title>No-Billag</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/toggle.css">
     <link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-        $(function () {
-            $.scrollify({
-                section: ".view-section"
-            });
-        });
-    </script>
 </head>
 <body>
+
+<section class="view-section">
+    <input type="button" name="btn_1_from_db" value="Toggle Color1"/>
+    <div id="toggleEvent" class="grid-x cover-background normal">
+        My color will change
+    </div>
+
+</section>
 
 <section class="view-section">
     <div class="grid-x cover-background">
@@ -61,69 +63,63 @@
             </div>
             <img class="img-person" src="img/people/marcel.png">
         </div>
+
+        <div class="cell large-12 medium-12 small-12 button">
+            <a href="html/feed.html" class="btn">
+                Social Media
+            </a>
+        </div>
     </div>
 </section>
 
 <section class="view-section">
-    <!--<div class="grid-container">-->
-
-    <div class="grid-x">
-        <div class="cell large-4 medium-6 small-12 person">
-            <img src="img/people/lois.png">
+    <div class="grid-x cover-background">
+        <div class="cell large-offset-2 large-8 question-end" style="border: 1px solid white">
+            Was passiert bei einem Nein mit der SRG?
         </div>
-        <div class="cell large-4 medium-6 small-12 person">
-            <img src="img/people/caroline.png">
+        <div class="cell large-offset-2 large-8 question-end" style="border: 1px solid white">
+            Ist diese Abstimmung vielleicht das Ende der Medienfreiheit?
         </div>
-        <div class="cell large-4 medium-6 small-12 person">
-            <img src="img/people/marcel.png">
+        <div class="cell large-offset-2 large-8 question-end" style="border: 1px solid white">
+            Gibt es einen Plan B?
         </div>
-    </div>
-
-
-    <div class="grid-x">
-        <!--Story 1-->
-        <div class="cell large-4" style="border: 2px solid red; height: 1000px;
-    overflow: scroll;">
-
-
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnobillag%2Fposts%2F768845026623998&width=500"
-                    width="100%" height="566" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowTransparency="true"></iframe>
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnobillag%2Fposts%2F768845026623998&width=500"
-                    width="100%" height="566" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowTransparency="true"></iframe>
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnobillag%2Fposts%2F768845026623998&width=500"
-                    width="100%" height="696" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowTransparency="true"></iframe>
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnobillag%2Fposts%2F768845026623998&width=500"
-                    width="100%" height="696" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowTransparency="true"></iframe>
+        <div class="cell large-offset-2 large-8 question-end" style="border: 1px solid white">
+            Was passiert bei einem Nein mit der SRG?
         </div>
-        <!--Story 2-->
-        <div class="cell large-4" style="border: 2px solid green">
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnobillag%2Fposts%2F768845026623998&width=500"
-                    width="100%" height="696" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowTransparency="true"></iframe>
-        </div>
-        <!--Story 3-->
-        <div class="cell large-4" style="border: 2px solid orange">
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnobillag%2Fposts%2F768845026623998&width=500"
-                    width="100%" height="696" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowTransparency="true"></iframe>
+        <div class="cell large-offset-2 large-8 question-end" style="border: 1px solid white">
+            Ist ein Franken pro Tag zuviel für das TV Angebot?
         </div>
     </div>
-    <!--</div>-->
 </section>
 
-
 <section class="view-section">
-    <h1 id="1">Sevi Test</h1>
+    <div class="grid-x">
+        <div class="cell large-offset-2 large-8" style="border: 1px solid red">
+            <h3>Ein Projekt von Severin Kilchhofer</h3>
+        <!--</div>-->
+        <!--<div class="cell large-offset-2 large-8" style="border: 1px solid red">-->
+            <h4>Grids and Modules <br>
+                Schule für Gestaltung Zürich</h4>
+        </div>
+        <div class="cell large-offset-2 large-8" style="border: 1px solid red">
+            <h5>Mit meinem Projekt zur No-Billag Initiative will ich alle Leute animieren,
+                sich genau über die Abstimmung zu informieren.
+                Jeder soll sich seine eigene Meinung bilden und sich nicht
+                durch irgendwelche Algorithmen beeinflussen lassen.</h5>
+            <h5>Meinen Beobachtungen zufolge informieren sich immer mehr Menschen
+                im Zug über das Smartphone. Um die verschiedenen
+                sozialen Medien zu vergleichen, entschied ich mich für drei verschiedene
+                Personen unterschiedlichen Alters. So entsteht einen Überblick, wie und
+                wo sich Herr und Frau Schweizer heutzutage informieren.</h5>
+        </div>
+
+    </div>
 </section>
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/what-input.js"></script>
 <script src="js/vendor/foundation.js"></script>
-<script src="js/jquery.scrollify.js"></script>
+<!--<script src="js/jquery.scrollify.js"></script>-->
 <script src="js/app.js"></script>
 </body>
 </html>
