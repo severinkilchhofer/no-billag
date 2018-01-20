@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Layout-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-843.000000, -753.000000)" stroke-linecap="square">
-        <g id="arrow-down-thin" transform="translate(845.000000, 755.000000)" stroke="#FFFFFF" stroke-width="3">
+        <g id="arrow-down-thin" transform="translate(845.000000, 755.000000)" stroke="#af001e" stroke-width="3">
             <path d="M0.5,0.5 L62.5,66.5" id="Line"></path>
             <path d="M127.001938,1.99806204 L62.5,66.5" id="Line"></path>
         </g>

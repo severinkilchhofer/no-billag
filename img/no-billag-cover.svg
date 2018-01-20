@@ -10,7 +10,7 @@
         <g id="Group" transform="translate(174.000000, 295.000000)">
             <g id="Rectangle-5">
                 <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="1091" height="293"></rect>
+                <rect x="0.5" y="0.5" width="1091" height="293"></rect>
             </g>
             <text id="NO-BILLAG" font-family="Hind-Bold, Hind" font-size="172" font-weight="bold" fill="#AF001E">
                 <tspan x="110" y="204">NO-BILLAG</tspan>
