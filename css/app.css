@@ -72,6 +72,15 @@ h1 {
     font-weight: 600;
 }
 
+@media print, screen and (max-width: 640px) {
+    h1 {
+        font-size: 1em;
+        color: red;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+}
+
 h2 {
     font-size: 3em;
     color: #222222;
@@ -107,7 +116,6 @@ img.img-person {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 /*play icon*/
 .button {
     text-align: center;
@@ -127,7 +135,22 @@ img.img-person {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-#billag-cover:hover {
-    content: url('../img/yes-billag-cover.svg');
+.opacity-feed {
+    opacity: 0.1;
 }
+
+.opacity-feed:hover {
+    opacity: 1;
+}
+
+.innerfade li {
+    display:none;
+    padding:10px;
+    /*position:absolute;*/
+    color: #AF001E;
+    font-size: 15em;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    list-style-type: none;
+}
+
