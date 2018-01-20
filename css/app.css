@@ -19,7 +19,7 @@ body {
 
 .arrow-padding {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 250px;
 }
 
 .cover-padding {
@@ -41,6 +41,7 @@ body {
 
 .person {
     text-align: center;
+    padding: 10px;
 }
 
 .name-header {
@@ -51,18 +52,31 @@ body {
     width: 70%;
 }
 
+.story-feed {
+    height: 850px;
+    overflow: scroll;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 /*headings*/
 
 h1 {
-    font-size: 4em;
+    font-size: 3.75em;
     color: #222222;
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 h2 {
-    font-size: 2em;
-    color: #555555;
+    font-size: 3em;
+    color: #222222;
     margin-top: 0;
+    font-weight: 400;
 }
 
 h3 {
@@ -79,6 +93,10 @@ h4 {
 
 h5 {
     font-size: 2em;
+    color: #AF001E;
+}
+
+.guillemets {
     color: #AF001E;
 }
 
