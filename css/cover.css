@@ -6,10 +6,8 @@ img.img-arrow {
     height: 30px;
 }
 
-
 /*Desktop*/
 td {
-
     width: 40%;
     text-align: right;
 }
@@ -20,7 +18,7 @@ td:last-child {
 }
 
 .innerfade li {
-    display:none;
+    display: none;
     color: #AF001E;
     font-size: 15em;
     font-family: 'Hind', sans-serif;
