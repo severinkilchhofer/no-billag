@@ -17,11 +17,6 @@ body {
     height: 100vh;
 }
 
-.arrow-padding {
-    text-align: center;
-    padding-top: 250px;
-}
-
 .cover-padding {
     text-align: center;
     padding-top: 150px;
@@ -248,14 +243,5 @@ img.img-person {
     opacity: 1;
 }
 
-.innerfade li {
-    display:none;
-    padding:10px;
-    /*position:absolute;*/
-    color: #AF001E;
-    font-size: 15em;
-    font-family: 'Hind', sans-serif;
-    font-weight: 600;
-    list-style-type: none;
-}
+
 

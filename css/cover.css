@@ -1,0 +1,116 @@
+table {
+    width: 100%;
+}
+
+img.img-arrow {
+    height: 30px;
+}
+
+
+/*Desktop*/
+td {
+
+    width: 40%;
+    text-align: right;
+}
+
+td:last-child {
+    width: 60%;
+    text-align: left;
+}
+
+.innerfade li {
+    display:none;
+    color: #AF001E;
+    font-size: 15em;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+span.billag {
+    font-size: 15em;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    color: #AF001E;
+}
+
+.arrow-padding {
+    text-align: center;
+    padding-top: 200px;
+}
+
+/*Smartphone*/
+@media print, (min-width: 0) and (max-width: 640px) {
+    td {
+        width: 40%;
+        text-align: right;
+    }
+
+    td:last-child {
+        width: 60%;
+        text-align: left;
+    }
+
+    .innerfade li {
+        font-size: 4em;
+    }
+
+    span.billag {
+        font-size: 4em;
+    }
+
+    .arrow-padding {
+        padding-top: 400px;
+    }
+
+}
+
+/*Tablet*/
+@media print, (min-width: 640px) and (max-width: 1024px) {
+    td {
+        width: 40%;
+        text-align: right;
+    }
+
+    td:last-child {
+        width: 60%;
+        text-align: left;
+    }
+
+    .innerfade li {
+        font-size: 7em;
+    }
+
+    span.billag {
+        font-size: 7em;
+    }
+
+    .arrow-padding {
+        padding-top: 300px;
+    }
+}
+
+@media print, (min-width: 1024px) and (max-width: 1350px) {
+    td {
+        width: 40%;
+        text-align: right;
+    }
+
+    td:last-child {
+        width: 60%;
+        text-align: left;
+    }
+
+    .innerfade li {
+        font-size: 13em;
+    }
+
+    span.billag {
+        font-size: 13em;
+    }
+
+    .arrow-padding {
+        padding-top: 230px;
+    }
+}
