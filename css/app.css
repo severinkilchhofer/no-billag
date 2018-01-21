@@ -72,13 +72,11 @@ h1 {
     font-weight: 600;
 }
 
-@media print, screen and (max-width: 640px) {
-    h1 {
-        font-size: 1em;
-        color: red;
-        margin-bottom: 0;
-        font-weight: 600;
-    }
+h1.statement3 {
+    font-size: 7.5em;
+    color: #AF001E;
+    margin-bottom: 400px;
+    text-align: center;
 }
 
 h2 {
@@ -98,11 +96,118 @@ h4 {
     font-size: 2.6em;
     color: #AF001E;
     margin: 0;
+    font-weight: 400;
 }
 
 h5 {
     font-size: 2em;
-    color: #AF001E;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 4em;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    line-height: 75px;
+    text-align: left;
+}
+
+h6.statement1 {
+    font-size: 13em;
+    line-height: 200px;
+    text-align: right;
+}
+
+h6.statement2 {
+    font-size: 6em;
+    line-height: 100px;
+}
+
+/*Smartphone*/
+@media print, screen and (max-width: 640px) {
+    h1 {
+        font-size: 1em;
+        color: red;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+
+    h1.statement3 {
+        font-size: 2em;
+        color: #AF001E;
+        margin-bottom: 400px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        font-size: 1.8em;
+        margin: 0;
+    }
+
+    h5 {
+        font-size: 1.2em;
+    }
+
+    h6 {
+        font-size: 1.5em;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 70px;
+        line-height: 35px;
+    }
+
+    h6.statement1 {
+        font-size: 3.5em;
+        line-height: 70px;
+        text-align: right;
+    }
+
+    h6.statement2 {
+        font-size: 2em;
+        line-height: 50px;
+    }
+}
+
+/*Tablet*/
+@media print, screen and (max-width: 768px) {
+    h1 {
+        font-size: 1em;
+        color: red;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+
+    h1.statement3 {
+        font-size: 4em;
+        color: #AF001E;
+        margin-bottom: 400px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 3em;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 70px;
+        line-height: 50px;
+    }
+
+    h6.statement1 {
+        font-size: 6em;
+        line-height: 100px;
+        text-align: right;
+    }
+
+    h6.statement2 {
+        font-size: 4em;
+        line-height: 60px;
+    }
 }
 
 .guillemets {
