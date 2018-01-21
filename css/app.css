@@ -125,7 +125,7 @@ h6.statement2 {
 }
 
 /*Smartphone*/
-@media print, screen and (max-width: 640px) {
+@media print, (min-width: 0) and (max-width: 640px) {
     h1 {
         font-size: 1em;
         color: red;
@@ -175,7 +175,7 @@ h6.statement2 {
 }
 
 /*Tablet*/
-@media print, screen and (max-width: 768px) {
+@media print, (min-width: 640px) and (max-width: 768px) {
     h1 {
         font-size: 1em;
         color: red;
