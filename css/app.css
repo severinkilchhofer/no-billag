@@ -220,6 +220,7 @@ img.img-person {
     overflow: scroll;
     padding-left: 10px;
     padding-right: 10px;
+    -webkit-overflow-scrolling: touch;
 }
 
 .opacity-feed {
