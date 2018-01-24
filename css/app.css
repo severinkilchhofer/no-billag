@@ -49,16 +49,21 @@ body {
 
 .footer {
     text-align: right;
-    padding-top: 25px;
-    padding-right: 25px;
+    padding-top: 8px;
+    padding-right: 15px;
     background: #AF001E;
-    height: 100px;
+    height: 50px;
 }
 
 .footer a {
     text-decoration: none;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+.footer-padding {
+    padding-top: 100px;
+    border-bottom: 1px solid #AF001E;
 }
 
 /*headings*/
@@ -110,6 +115,11 @@ h6 {
     margin-bottom: 100px;
     line-height: 75px;
     text-align: left;
+}
+
+h7 {
+    font-size: 1em;
+    font-weight: 400;
 }
 
 h6.statement1 {
