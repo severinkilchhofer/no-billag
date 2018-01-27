@@ -277,12 +277,13 @@ img.img-person {
     -webkit-overflow-scrolling: touch;
 }
 
-.opacity-feed {
+.opacity-feed.over {
     opacity: 0.1;
 }
 
-.opacity-feed:hover {
+.opacity-feed {
     opacity: 1;
+    transition: opacity .2s
 }
 
 /*Smartphone*/
